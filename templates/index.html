@@ -1,0 +1,14 @@
+<!doctype html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="https://hunter2labs.s3.amazonaws.com/common.css">
+    <script src='https://hunter2labs.s3.amazonaws.com/common.js'></script>
+  </head>
+  <body>
+    <form method="post">
+      <input type=text name=reflected>
+      <button type=submit>Submit</button>
+    </form>
+    You entered: {{ user_input|safe }}
+  </body>
+</html>
